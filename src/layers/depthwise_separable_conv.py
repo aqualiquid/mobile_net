@@ -251,7 +251,7 @@ def compare_conv_methods(input_tensor: torch.Tensor, in_channels: int, out_chann
 
 if __name__ == "__main__":
     # 테스트 코드
-    print("=== Depthwise Separable Convolution 테스트 ===")
+    print("=== Depthwise Separable Convolution test ===")
     
     # 테스트 입력
     batch_size, in_channels, height, width = 1, 32, 224, 224
